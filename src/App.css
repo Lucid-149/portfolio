@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100;300;500;700;800;900&family=Libre+Barcode+39+Text&display=swap');
+body{
+    font-family: 'Encode Sans', sans-serif;
+  
+   
+    
+}
+
+.title{
+    font-family: 'Libre Barcode 39 Text', cursive;
+}
+html {
+    scroll-behavior: smooth;
+  }
+  /* width */
+::-webkit-scrollbar {
+    width: 2px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #000000;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(188, 1, 1);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(73, 0, 0);
+  }
